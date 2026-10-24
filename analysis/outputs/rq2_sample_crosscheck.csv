@@ -1,0 +1,7 @@
+ask_type,sample_n,sample_resolved,sample_merge_pct,pop_merge_pct,sample_med_credits,pop_med_credits,sample_med_change,pop_med_change,sample_med_rounds
+Code Authoring,184,175,80,78,2,1,264,137,2
+Failure Reporting,81,76,74,74,3,1,111,46,1
+Inquiry,29,24,67,57,2,1,133,162,2
+Validation,22,21,81,83,2,0,117,139,0
+Delegation,50,48,58,79,2,1,214,115,2
+Others,12,12,83,63,8,1,316,126,4

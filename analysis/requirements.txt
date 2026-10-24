@@ -1,0 +1,8 @@
+# Replication package for "Fix This, Please" (AgentLogs v1.0 / revision 1.0-20261008)
+duckdb
+polars
+pandas
+numpy
+scipy
+huggingface_hub
+datasets

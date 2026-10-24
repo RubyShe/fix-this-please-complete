@@ -1,0 +1,21 @@
+id	BIGINT
+repository	STRUCT(full_name VARCHAR)
+head_repository	STRUCT(full_name VARCHAR)
+actor	STRUCT(id BIGINT, login VARCHAR, graphql_id VARCHAR, "type" VARCHAR)
+triggering_actor	STRUCT(id BIGINT, login VARCHAR, graphql_id VARCHAR, "type" VARCHAR)
+session	STRUCT(id VARCHAR)
+name	VARCHAR
+graphql_id	VARCHAR
+check_suite	STRUCT(id BIGINT, graphql_id VARCHAR)
+head	STRUCT(sha VARCHAR, "ref" VARCHAR)
+path	VARCHAR
+run_number	BIGINT
+run_attempt	BIGINT
+event	VARCHAR
+status	VARCHAR
+conclusion	VARCHAR
+workflow_id	BIGINT
+created_at	TIMESTAMP
+updated_at	TIMESTAMP
+run_started_at	TIMESTAMP
+display_title	VARCHAR

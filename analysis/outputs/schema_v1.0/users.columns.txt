@@ -1,0 +1,18 @@
+id	BIGINT
+login	VARCHAR
+graphql_id	VARCHAR
+type	VARCHAR
+found_using	VARCHAR
+tasks	STRUCT(id VARCHAR)[]
+sessions	STRUCT(id VARCHAR)[]
+repositories	STRUCT(full_name VARCHAR)[]
+pull_requests	STRUCT(id BIGINT, graphql_id VARCHAR, number BIGINT, repository STRUCT(full_name VARCHAR))[]
+assigned_pull_requests	STRUCT(id BIGINT, graphql_id VARCHAR, number BIGINT, repository STRUCT(full_name VARCHAR))[]
+review_requested_pull_requests	STRUCT(id BIGINT, graphql_id VARCHAR, number BIGINT, repository STRUCT(full_name VARCHAR))[]
+merged_pull_requests	STRUCT(id BIGINT, graphql_id VARCHAR, number BIGINT, repository STRUCT(full_name VARCHAR))[]
+auto_merge_enabled_pull_requests	STRUCT(id BIGINT, graphql_id VARCHAR, number BIGINT, repository STRUCT(full_name VARCHAR))[]
+timeline_events	STRUCT(pull_request STRUCT(id BIGINT, graphql_id VARCHAR, number BIGINT, repository STRUCT(full_name VARCHAR)), event_index BIGINT)[]
+assigned_timeline_events	STRUCT(pull_request STRUCT(id BIGINT, graphql_id VARCHAR, number BIGINT, repository STRUCT(full_name VARCHAR)), event_index BIGINT)[]
+workflow_runs	STRUCT(id BIGINT, repository STRUCT(full_name VARCHAR))[]
+triggered_workflow_runs	STRUCT(id BIGINT, repository STRUCT(full_name VARCHAR))[]
+created_at	TIMESTAMP

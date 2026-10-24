@@ -1,0 +1,36 @@
+full_name	VARCHAR
+agent_tasks	STRUCT(id VARCHAR)[]
+owner	STRUCT(id BIGINT, login VARCHAR, graphql_id VARCHAR, "type" VARCHAR)
+archived	BOOLEAN
+disabled	BOOLEAN
+locked	BOOLEAN
+fork	BOOLEAN
+homepage	VARCHAR
+has_wiki	BOOLEAN
+license	VARCHAR
+main_language	VARCHAR
+default_branch	VARCHAR
+size	BIGINT
+created_at	TIMESTAMP
+pushed_at	TIMESTAMP
+updated_at	TIMESTAMP
+last_commit_at	TIMESTAMP
+last_commit_SHA	VARCHAR
+forks_count	BIGINT
+stargazers_count	BIGINT
+watchers_count	BIGINT
+commits_count	BIGINT
+branches_count	BIGINT
+releases_count	BIGINT
+contributors_count	BIGINT
+total_issues_count	BIGINT
+open_issues_count	BIGINT
+total_pull_requests_count	BIGINT
+open_pull_requests_count	BIGINT
+labels	VARCHAR[]
+topics	VARCHAR[]
+languages	STRUCT("language" VARCHAR, bytes BIGINT)[]
+blank_lines	BIGINT
+code_lines	BIGINT
+comment_lines	BIGINT
+metrics	STRUCT("language" VARCHAR, blank_lines BIGINT, code_lines BIGINT, comment_lines BIGINT)[]

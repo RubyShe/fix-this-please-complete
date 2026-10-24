@@ -1,0 +1,22 @@
+id	VARCHAR
+session_index	BIGINT
+log_found	BOOLEAN
+task	STRUCT(id VARCHAR)
+user	STRUCT(id BIGINT, login VARCHAR, graphql_id VARCHAR, "type" VARCHAR)
+pull_request_artifact	STRUCT(id BIGINT, graphql_id VARCHAR, number BIGINT, repository STRUCT(full_name VARCHAR))
+workflow_run	STRUCT(id BIGINT, repository STRUCT(full_name VARCHAR))
+base	STRUCT("ref" VARCHAR)
+head	STRUCT("ref" VARCHAR)
+name	VARCHAR
+model	VARCHAR
+prompt	VARCHAR
+reasoning_effort	VARCHAR
+state	VARCHAR
+usage	STRUCT("type" VARCHAR, amount DOUBLE, credits DOUBLE)
+premium_requests	DOUBLE
+error	VARCHAR
+remote_steerable	BOOLEAN
+event	STRUCT("type" VARCHAR, url VARCHAR, ids VARCHAR[], "content" VARCHAR)
+created_at	TIMESTAMP
+updated_at	TIMESTAMP
+completed_at	TIMESTAMP

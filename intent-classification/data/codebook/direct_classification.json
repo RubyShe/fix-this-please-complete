@@ -1,0 +1,9 @@
+{
+  "review-request": [
+    {
+      "reasoning": "The session event type is review-request.",
+      "main_category": "4. Validation",
+      "sub_category": "4.1 Code Review"
+    }
+  ]
+}

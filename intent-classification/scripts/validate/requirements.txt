@@ -1,0 +1,6 @@
+duckdb
+huggingface_hub
+risenlab-agentlogs~=1.0.0
+numpy
+pandas
+scikit-learn

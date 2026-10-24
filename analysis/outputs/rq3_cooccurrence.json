@@ -1,0 +1,50 @@
+{
+ "3. Inquiry": {
+  "3. Inquiry": 5663,
+  "6. Others": 365,
+  "1. Code Authoring": 9144,
+  "5. Delegation": 2647,
+  "4. Validation": 778,
+  "2. Failure Reporting": 2594
+ },
+ "1. Code Authoring": {
+  "1. Code Authoring": 83600,
+  "2. Failure Reporting": 30898,
+  "4. Validation": 4629,
+  "5. Delegation": 17722,
+  "3. Inquiry": 8722,
+  "6. Others": 1869
+ },
+ "2. Failure Reporting": {
+  "1. Code Authoring": 18209,
+  "3. Inquiry": 4610,
+  "5. Delegation": 5416,
+  "2. Failure Reporting": 13370,
+  "4. Validation": 2024,
+  "6. Others": 615
+ },
+ "4. Validation": {
+  "5. Delegation": 1012,
+  "4. Validation": 8944,
+  "6. Others": 209,
+  "1. Code Authoring": 2234,
+  "3. Inquiry": 1260,
+  "2. Failure Reporting": 840
+ },
+ "5. Delegation": {
+  "5. Delegation": 7449,
+  "2. Failure Reporting": 1996,
+  "1. Code Authoring": 7671,
+  "6. Others": 281,
+  "3. Inquiry": 1217,
+  "4. Validation": 531
+ },
+ "6. Others": {
+  "1. Code Authoring": 418,
+  "6. Others": 372,
+  "4. Validation": 94,
+  "3. Inquiry": 160,
+  "2. Failure Reporting": 137,
+  "5. Delegation": 138
+ }
+}

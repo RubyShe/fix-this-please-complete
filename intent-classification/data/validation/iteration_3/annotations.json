@@ -1,0 +1,1124 @@
+[
+  {
+    "id": "01a80fb2-03a5-4645-8d55-6b07eada549b",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "4.2 Validation - Runtime Inspection",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "4.2 Validation - Runtime Inspection",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0a0cda83-1062-4c5e-bc69-5751fb13df0e",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0a1fc32c-6e1d-48e8-9316-e8901f722534",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste",
+          "2.2 Failure Reporting - Symptom Description",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste",
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0a77430c-f99f-4268-8be4-a10c743a4975",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste",
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste",
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0a870f27-32ae-476e-be4c-cc0b75e9ae8c",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0aa273ad-3bb9-4ec9-9e67-54162c073ff8",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.1 Delegation - Documentation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.1 Delegation - Documentation"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "5.1 Delegation - Documentation"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.1 Delegation - Documentation"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.1 Delegation - Documentation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0b58b572-64fa-41b0-ab57-b1a4b644a7ad",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "4.1 Validation - Code Review"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "2.3 Failure Reporting - Unspecified Failure"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "4.1 Validation - Code Review"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "4.1 Validation - Code Review"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0c08c7ba-5979-478e-9dc7-eefe79176a5c",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0d978de7-9a52-41fd-b539-1e46fef36cc4",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.1 Code Authoring - New Implementation",
+          "1.2 Code Authoring - Iterative Modification",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.1 Code Authoring - New Implementation"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.1 Code Authoring - New Implementation",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.1 Code Authoring - New Implementation",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.3 Code Authoring - Unspecified Authoring",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0e9b4371-5e8e-40d9-ad4f-522d483c15b6",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "2.3 Failure Reporting - Unspecified Failure"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "2.3 Failure Reporting - Unspecified Failure"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "2.3 Failure Reporting - Unspecified Failure"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0ef05b1c-80ee-40bf-a96b-25e18637c2fd",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.1 Code Authoring - New Implementation"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1a47ef6e-03ba-413c-8aee-1c03f870d3fe",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1ba076a9-00b7-4e38-9103-3d0294fdd54e",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste",
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste",
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste",
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1ca2aade-0c07-440e-ae44-217b150e10f6",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "2.1 Failure Reporting - Log Paste"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste",
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "2.1 Failure Reporting - Log Paste"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "2.1 Failure Reporting - Log Paste"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1d021991-9a48-44c0-a826-89dc374880a4",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.1 Code Authoring - New Implementation",
+          "3.2 Inquiry - Project Comprehension",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.1 Code Authoring - New Implementation"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.1 Code Authoring - New Implementation"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.1 Code Authoring - New Implementation",
+          "4.1 Validation - Code Review",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2a2ec4ff-e814-41ff-ab64-7e67a68e597f",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "2.2 Failure Reporting - Symptom Description",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "3.1 Inquiry - Planning & Consultation",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2ab09662-4c31-44c5-a99b-1b60afe73ccb",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.1 Code Authoring - New Implementation"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "4.1 Validation - Code Review"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2b56659a-2176-4a1f-a1b5-784a31eb333e",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2ba17e63-11d9-4a4a-94ea-ab7e261146c9",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.1 Delegation - Documentation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.1 Delegation - Documentation"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.1 Delegation - Documentation"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.1 Delegation - Documentation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2c19aa78-2645-47ee-8b5f-ddb87b9246d0",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.1 Code Authoring - New Implementation",
+          "2.3 Failure Reporting - Unspecified Failure",
+          "4.2 Validation - Runtime Inspection",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.1 Code Authoring - New Implementation",
+          "2.3 Failure Reporting - Unspecified Failure",
+          "4.2 Validation - Runtime Inspection"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.1 Code Authoring - New Implementation",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.1 Code Authoring - New Implementation",
+          "1.2 Code Authoring - Iterative Modification",
+          "2.3 Failure Reporting - Unspecified Failure",
+          "4.2 Validation - Runtime Inspection",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.1 Code Authoring - New Implementation",
+          "2.3 Failure Reporting - Unspecified Failure",
+          "4.1 Validation - Code Review",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2c4baacd-04f3-4ece-bb6b-a0e219f17779",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2ceeaf51-dc03-4444-b425-719f0ff1fbb5",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2d597698-b733-4343-bec6-78d7f2158e3a",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste",
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "2.1 Failure Reporting - Log Paste"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2d704f8d-395c-450a-b56f-39521d0663dc",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "6.1 Others - Others"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "6.1 Others - Others"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "6.1 Others - Others"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "6.1 Others - Others"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "2.2 Failure Reporting - Symptom Description"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2d9fa852-a7d6-44b3-9783-ec75c83c0d1d",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "4.2 Validation - Runtime Inspection",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "4.1 Validation - Code Review",
+          "4.2 Validation - Runtime Inspection",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2e11f033-bf85-43e1-99d6-3c0359290caa",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2ee7d85c-1c52-4378-a0d9-f92cde57c195",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "6.1 Others - Others"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "6.1 Others - Others"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "6.1 Others - Others"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3a02cf92-ba29-49e6-b541-d80df19b151e",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.1 Delegation - Documentation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.1 Delegation - Documentation"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "5.1 Delegation - Documentation"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "4.2 Validation - Runtime Inspection",
+          "5.1 Delegation - Documentation"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.1 Delegation - Documentation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3b210dae-5799-4982-8397-c3190042d8e1",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "3.1 Inquiry - Planning & Consultation"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "3.1 Inquiry - Planning & Consultation"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "5.2 Delegation - Toolchain Operation"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "1.2 Code Authoring - Iterative Modification",
+          "2.1 Failure Reporting - Log Paste"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3bdefc23-948f-4053-9225-79e6a77bf6f6",
+    "annotations": [
+      {
+        "annotator": "2",
+        "labels": [
+          "6.1 Others - Others"
+        ]
+      },
+      {
+        "annotator": "4",
+        "labels": [
+          "6.1 Others - Others"
+        ]
+      },
+      {
+        "annotator": "5",
+        "labels": [
+          "6.1 Others - Others"
+        ]
+      },
+      {
+        "annotator": "1",
+        "labels": [
+          "6.1 Others - Others"
+        ]
+      },
+      {
+        "annotator": "3",
+        "labels": [
+          "6.1 Others - Others"
+        ]
+      }
+    ]
+  }
+]

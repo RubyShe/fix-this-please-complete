@@ -1,0 +1,9 @@
+pull_request	STRUCT(id BIGINT, graphql_id VARCHAR, number BIGINT, repository STRUCT(full_name VARCHAR))
+event_index	BIGINT
+event	VARCHAR
+created_at	TIMESTAMP
+actor	STRUCT(id BIGINT, login VARCHAR, graphql_id VARCHAR, "type" VARCHAR)
+assignee	STRUCT(id BIGINT, login VARCHAR, graphql_id VARCHAR, "type" VARCHAR)
+label	VARCHAR
+commit_id	VARCHAR
+message	VARCHAR

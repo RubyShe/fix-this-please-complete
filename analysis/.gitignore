@@ -1,0 +1,25 @@
+# ---- Raw dataset: 3+ GB, re-downloaded by scripts/01_download_v1.py from HuggingFace ----
+data/
+
+# ---- The paper is its own (Overleaf) git repo ----
+6a8ed146fee67b71ce382c59/
+
+# ---- Large regenerated artifacts (produced by the scripts; not source) ----
+outputs/*.parquet
+outputs/rq2_task_metrics_v1.0.csv
+outputs/rq3_commenter_classification.csv
+outputs/_dryrun/
+
+# ---- Python / OS cruft ----
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# Claude internal scratch + superseded v0.2 material (kept on disk, out of the package)
+_working/
+
+# internal / identifying -- never ship
+MSR2027_PC_related_work.md
+Claude outputs/
+*.pdf

@@ -1,0 +1,12 @@
+tasks with a PR: 307,297
+takeover (human pushed after agent's last session), among tasks with a PR: 19,829 (6.5%)
+takeover among tasks WITH >=1 round: 6,299 (6.6%)  (n=95,224)
+  with-rounds end state merged: 70,031 (73.5%)
+  with-rounds end state closed_no_merge: 15,914 (16.7%)
+  with-rounds end state open: 4,136 (4.3%)
+  with-rounds end state no_pr: 5,143 (5.4%)
+end states by #rounds (merged% / taken% / closed% / open%):
+    0 rounds (n=229,471): merged 68.2% / taken 5.9% / closed 22.3% / open 4.2%
+    1 rounds (n=47,484): merged 73.7% / taken 6.0% / closed 16.8% / open 4.0%
+    2 rounds (n=19,962): merged 73.4% / taken 6.7% / closed 16.4% / open 4.5%
+   3+ rounds (n=27,778): merged 73.4% / taken 7.6% / closed 16.8% / open 4.9%

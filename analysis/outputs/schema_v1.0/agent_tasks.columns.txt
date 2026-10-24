@@ -1,0 +1,17 @@
+id	VARCHAR
+repository	STRUCT(full_name VARCHAR)
+sessions	STRUCT(id VARCHAR, session_index BIGINT)[]
+creator	STRUCT(id BIGINT, login VARCHAR, graphql_id VARCHAR, "type" VARCHAR)
+pull_request_artifacts	STRUCT(id BIGINT, graphql_id VARCHAR, number BIGINT, repository STRUCT(full_name VARCHAR))[]
+name	VARCHAR
+state	VARCHAR
+archived	BOOLEAN
+remote_steerable	BOOLEAN
+sharing_status	VARCHAR
+created_at	TIMESTAMP
+updated_at	TIMESTAMP
+archived_at	TIMESTAMP
+custom_agent	STRUCT(id VARCHAR, "name" VARCHAR, is_automation BOOLEAN)
+automation_id	VARCHAR
+agent_collaborators	STRUCT(id BIGINT, slug VARCHAR, task_id VARCHAR, "type" VARCHAR)[]
+branch_artifacts	STRUCT(base STRUCT("ref" VARCHAR), head STRUCT("ref" VARCHAR))[]

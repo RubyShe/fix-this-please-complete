@@ -1,0 +1,60 @@
+
+=== rounds: Kruskal-Wallis across ask types ===
+H=7102.2, p=0
+  pair | Holm p | Cliff's delta (|d|>=0.147 small, 0.33 medium, 0.474 large)
+    Inquiry vs Validation: p=0, d=+0.27
+    Inquiry vs Others: p=3.3e-178, d=+0.26
+    Inquiry vs Delegation: p=0, d=+0.19
+    Code Authoring vs Validation: p=0, d=+0.18
+    Code Authoring vs Others: p=1.8e-101, d=+0.17
+    Failure Reporting vs Inquiry: p=3.2e-277, d=-0.15
+    Failure Reporting vs Validation: p=0, d=+0.12
+    Failure Reporting vs Others: p=1.9e-51, d=+0.12
+    Code Authoring vs Delegation: p=5.4e-248, d=+0.10
+    Code Authoring vs Inquiry: p=3.3e-111, d=-0.09
+    Validation vs Delegation: p=5e-178, d=-0.08
+    Delegation vs Others: p=1.2e-25, d=+0.08
+    Code Authoring vs Failure Reporting: p=4.8e-156, d=+0.06
+    Failure Reporting vs Delegation: p=3.4e-37, d=+0.04
+    Validation vs Others: p=0.48, d=-0.00
+
+=== credits: Kruskal-Wallis across ask types ===
+H=36975.6, p=0
+  pair | Holm p | Cliff's delta (|d|>=0.147 small, 0.33 medium, 0.474 large)
+    Code Authoring vs Validation: p=0, d=+0.56
+    Inquiry vs Validation: p=0, d=+0.50
+    Failure Reporting vs Validation: p=0, d=+0.47
+    Validation vs Delegation: p=0, d=-0.41
+    Validation vs Others: p=0, d=-0.35
+    Code Authoring vs Others: p=2.9e-195, d=+0.28
+    Inquiry vs Others: p=1.5e-98, d=+0.22
+    Code Authoring vs Delegation: p=0, d=+0.19
+    Failure Reporting vs Others: p=1.4e-71, d=+0.17
+    Inquiry vs Delegation: p=1.5e-137, d=+0.13
+    Code Authoring vs Failure Reporting: p=0, d=+0.10
+    Delegation vs Others: p=1.5e-20, d=+0.09
+    Failure Reporting vs Delegation: p=4.4e-111, d=+0.08
+    Failure Reporting vs Inquiry: p=3.3e-29, d=-0.06
+    Code Authoring vs Inquiry: p=5.3e-17, d=+0.04
+
+=== change size: Kruskal-Wallis across ask types ===
+H=8981.6, p=0
+  pair | Holm p | Cliff's delta (|d|>=0.147 small, 0.33 medium, 0.474 large)
+    Code Authoring vs Failure Reporting: p=0, d=+0.25
+    Failure Reporting vs Validation: p=0, d=-0.24
+    Failure Reporting vs Inquiry: p=5.2e-206, d=-0.20
+    Failure Reporting vs Delegation: p=0, d=-0.19
+    Validation vs Others: p=6.5e-25, d=+0.11
+    Code Authoring vs Others: p=1.9e-21, d=+0.10
+    Failure Reporting vs Others: p=4.3e-19, d=-0.09
+    Inquiry vs Others: p=2.2e-12, d=+0.09
+    Delegation vs Others: p=2.5e-08, d=+0.06
+    Validation vs Delegation: p=9.6e-33, d=+0.05
+    Code Authoring vs Delegation: p=5e-39, d=+0.05
+    Inquiry vs Delegation: p=8.3e-05, d=+0.03
+    Inquiry vs Validation: p=0.013, d=-0.02
+    Code Authoring vs Inquiry: p=0.2, d=+0.01
+    Code Authoring vs Validation: p=0.08, d=-0.01
+
+=== merge rate: chi-square across ask types (resolved PRs) ===
+chi2=3564.1, dof=5, p=0

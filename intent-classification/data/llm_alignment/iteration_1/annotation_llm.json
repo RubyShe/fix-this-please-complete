@@ -1,0 +1,502 @@
+[
+  {
+    "id": "0a77430c-f99f-4268-8be4-a10c743a4975",
+    "focus": "Classify the new comment reporting the failing `SORT_UNDEFINED_VALUES` test and asking to identify the cause and fix it. The earlier comments and assistant replies in the PR history are context, not separate current intents.",
+    "labels": [
+      {
+        "reasoning": "The comment reports that `SORT_UNDEFINED_VALUES` is failing and states the expected behavior: the result should remain a list of undefined values. This is a natural-language description of incorrect behavior, so it is a symptom report (2.2), rather than a separate authoring request.",
+        "main_category": "2. Failure Reporting",
+        "sub_category": "2.2 Symptom Description"
+      }
+    ],
+    "tokens": 7680,
+    "cost": 0.0009944,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "12cdb7c8-6dd6-48af-9598-f1d5068730e0",
+    "focus": "Classify the two requests in the current problem statement: change the cache-miss fallback behavior and diagnose the repeated cache-miss message. The repository context and instruction about choosing an appropriate response path do not add separate user intents.",
+    "labels": [
+      {
+        "reasoning": "The user directs the agent to change the existing cache-miss behavior so build steps fail instead of falling back to apt. This is an adjustment to code already under development, so it is iterative modification.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.2 Iterative Modification"
+      },
+      {
+        "reasoning": "The user also reports that the workflow repeatedly says the cache was not found and asks whether something is wrong. This is a request to diagnose an unexpected behavior described in natural language.",
+        "main_category": "2. Failure Reporting",
+        "sub_category": "2.2 Symptom Description"
+      }
+    ],
+    "tokens": 5316,
+    "cost": 0.0007412,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "27e09da5-3db4-41f2-9920-9b3890a8a36e",
+    "focus": "The prompt explicitly asks to implement the specified change to the existing resolver. Repository context and other request metadata are not relevant to the classification.",
+    "labels": [
+      {
+        "reasoning": "The user asks to adjust the existing `edgeTxPrs` resolver by adding `per_page: 100` to its GitHub API parameters. This is a refinement of existing code, not a new feature or a request to diagnose a failure.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.2 Iterative Modification"
+      }
+    ],
+    "tokens": 4202,
+    "cost": 0.0005162000000000001,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "2c19aa78-2645-47ee-8b5f-ddb87b9246d0",
+    "focus": "The problem statement asks to reproduce an issue in Storybook, fix it and add a test if reproduced, and open a PR. The request contains no actual bug-report details, so no specific failure symptom can be classified.",
+    "labels": [
+      {
+        "reasoning": "The user asks the agent to reproduce the reported issue in Storybook and confirm whether it occurs, which is an explicit request to inspect runtime behavior. The bug report\u2019s symptoms are not included, so this is not itself a natural-language failure description.",
+        "main_category": "4. Validation",
+        "sub_category": "4.2 Runtime Inspection"
+      },
+      {
+        "reasoning": "If reproduced, the user requests a fix and a test, directing changes to existing code and adding test coverage. This is iterative modification in response to a bug, not a request to build a standalone new feature.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.2 Iterative Modification"
+      },
+      {
+        "reasoning": "Opening a PR is a separate requested action in the development environment, so it also warrants the toolchain-operation label.",
+        "main_category": "5. Delegation",
+        "sub_category": "5.2 Toolchain Operation"
+      }
+    ],
+    "tokens": 4479,
+    "cost": 0.0007667,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "420740e6-45d0-4f01-b283-761c14f39c7c",
+    "focus": "The problem statement specifies a new `allText` configuration object and its fields and defaults, and the prompt asks for the necessary repository changes. The repository setup details are not relevant to the intent classification.",
+    "labels": [
+      {
+        "reasoning": "The user asks to implement a new `allText` object in the Node API's `indexConfig`, with specified fields and defaults. This is a request to add a new capability, so it is New Implementation rather than a modification or failure report.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.1 New Implementation"
+      }
+    ],
+    "tokens": 3899,
+    "cost": 0.0004627,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "4e61371b-345e-45c1-a221-d012e6a0530f",
+    "focus": "The actionable current intent is the new PR comment asking Copilot to review. The PR description, repository context, and CI/build-failure instruction are background and do not add a separate user intent.",
+    "labels": [
+      {
+        "reasoning": "The new comment explicitly says \u201c@copilot review,\u201d asking the agent to inspect the submitted changes. This is a code review request, not a request to modify code or run tests.",
+        "main_category": "4. Validation",
+        "sub_category": "4.1 Code Review"
+      }
+    ],
+    "tokens": 4356,
+    "cost": 0.0005096,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "5227e536-0df5-40e8-ba01-0d346fb615a5",
+    "focus": "The current intent is expressed in the new PR comment: \u201cresolve conflicts.\u201d The PR description, prior comments, and general build-related boilerplate are context rather than additional requests.",
+    "labels": [
+      {
+        "reasoning": "The new comment directly asks the agent to resolve repository conflicts, which is an operational task in the development environment. It does not specify a code behavior or implementation change.",
+        "main_category": "5. Delegation",
+        "sub_category": "5.2 Toolchain Operation"
+      }
+    ],
+    "tokens": 6477,
+    "cost": 0.0008437000000000001,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "5346cfdb-3f60-4eaf-9e75-3f242bcd634d",
+    "focus": "The problem statement\u2019s npm publishing errors and request to fix them and enable Trusted Publishing show both a failure-reporting intent and a configuration-change intent. Repository context and other instructions outside the problem statement are not needed to classify these intents.",
+    "labels": [
+      {
+        "reasoning": "The user includes npm publishing error output, including E404 responses and an expired or revoked token notice, and asks for help fixing the failed publishing. This is a pasted machine-generated failure log, so it fits Log Paste.",
+        "main_category": "2. Failure Reporting",
+        "sub_category": "2.1 Log Paste"
+      },
+      {
+        "reasoning": "The user also asks to correctly enable Trusted Publishing, which calls for changing the repository\u2019s existing publishing setup rather than merely diagnosing the logs. This is an iterative modification to existing code or configuration.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.2 Iterative Modification"
+      }
+    ],
+    "tokens": 5245,
+    "cost": 0.0008141,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "5ae8ed53-9ab9-4bb9-bb48-ca4f770e0333",
+    "focus": "Classify the new comment, \u201c@copilot+claude-sonnet-4.6 start review.\u201d The earlier comments and their discussion are context only.",
+    "labels": [
+      {
+        "reasoning": "The new comment asks the agent to \u201cstart review,\u201d which is a request to inspect the submitted changes for correctness or issues. This is code review, not a request to modify code or run the project.",
+        "main_category": "4. Validation",
+        "sub_category": "4.1 Code Review"
+      }
+    ],
+    "tokens": 6716,
+    "cost": 0.0007796,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "5c6bf40a-4415-48a3-81f3-f79a4ebee27e",
+    "focus": "The problem statement and instruction to implement the requested change show an intent to modify existing compatibility metadata. The repository context and issue comments provide background but do not add separate intents.",
+    "labels": [
+      {
+        "reasoning": "The user directs the agent to update existing metadata in pyproject.toml by removing the macOS and FreeBSD classifiers. This is a targeted modification to existing project content, not a request for a new feature.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.2 Iterative Modification"
+      }
+    ],
+    "tokens": 4088,
+    "cost": 0.0004908,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "62528e27-1021-44fa-9a7a-6c65237ea94b",
+    "focus": "\u73fe\u5728\u306e\u554f\u984c\u6587\u306f\u300c\u518d\u958b\u3057\u3066\u300d\u306e\u307f\u3067\u3059\u3002\u524d\u306e\u4f9d\u983c\u3092\u518d\u958b\u3059\u308b\u610f\u56f3\u3068\u3057\u3066\u6587\u8108\u3092\u53c2\u7167\u3057\u3001README\u66f4\u65b0\u3078\u306e\u8a00\u53ca\u306f\u660e\u78ba\u306a\u4f5c\u6210\u6307\u793a\u3067\u306f\u306a\u3044\u305f\u3081\u3001\u72ec\u7acb\u3057\u305f\u30e9\u30d9\u30eb\u306b\u306f\u3057\u307e\u305b\u3093\u3002",
+    "labels": [
+      {
+        "reasoning": "\u300c\u518d\u958b\u3057\u3066\u300d\u306f\u3001\u524d\u306e\u4f9d\u983c\u3092\u7d9a\u3051\u308b\u6307\u793a\u3067\u3059\u3002\u524d\u306e\u4f9d\u983c\u306e\u4e2d\u5fc3\u306f\u3001F-Droid\u516c\u958b\u306b\u5411\u3051\u3066\u30ea\u30dd\u30b8\u30c8\u30ea\u3084\u30bd\u30fc\u30b9\u306e\u6e96\u5099\u72b6\u6cc1\u3068\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u3092\u78ba\u8a8d\u3059\u308b\u3053\u3068\u306a\u306e\u3067\u3001\u30b3\u30fc\u30c9\u3084\u8a2d\u5b9a\u3092\u8abf\u3079\u308b\u691c\u8a3c\u3068\u3057\u3066\u5206\u985e\u3057\u307e\u3059\u3002",
+        "main_category": "4. Validation",
+        "sub_category": "4.1 Code Review"
+      }
+    ],
+    "tokens": 4853,
+    "cost": 0.0009265,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "634cac56-0697-42bd-ac38-27b64fd79487",
+    "focus": "The actionable comment asks @copilot to update the PR title and description; the surrounding repository context and PR template are not separate requests.",
+    "labels": [
+      {
+        "reasoning": "The comment directly asks the agent to update the existing PR\u2019s title and description, which is an operational action on the pull request. It does not ask for code changes or merely for advice about what the title and description should say.",
+        "main_category": "5. Delegation",
+        "sub_category": "5.2 Toolchain Operation"
+      }
+    ],
+    "tokens": 4405,
+    "cost": 0.0006077000000000001,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "63d23ca0-2897-45e4-8ac6-5dc0e2652a60",
+    "focus": "The relevant intent is the request to implement the detailed plan in the problem statement. Repository context and instruction boilerplate do not add separate intents.",
+    "labels": [
+      {
+        "reasoning": "The user explicitly asks to implement the plan, which adds behavior that does not currently exist: placing `_vrf_*` keys first in the table and saved CIF, with corresponding tests. This is a new implementation rather than merely refining existing code; no separate execution or validation action is requested.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.1 New Implementation"
+      }
+    ],
+    "tokens": 5697,
+    "cost": 0.0006901,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "7e972441-2e80-4e6e-be3e-dccd2309e0d8",
+    "focus": "The problem statement requests minor-version bumps in Prod_migrated and test_migrated. Repository setup and surrounding instructions do not add a separate intent.",
+    "labels": [
+      {
+        "reasoning": "The user asks to increment the minor versions in two existing files, which is a targeted modification of existing project content. This is iterative modification rather than a request to create a new feature.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.2 Iterative Modification"
+      }
+    ],
+    "tokens": 3908,
+    "cost": 0.0004844,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "857ae00b-1d23-4333-bb3b-311d6f073caa",
+    "focus": "The current prompt asks Copilot to close three pull requests and avoid opening additional ones. The prior PR discussion provides context for which pull requests are meant, but the underlying code changes are not the focus.",
+    "labels": [
+      {
+        "reasoning": "The user directly instructs Copilot to close the three previously opened pull requests and not to open any more. This is a request to operate the development workflow, so it is Toolchain Operation.",
+        "main_category": "5. Delegation",
+        "sub_category": "5.2 Toolchain Operation"
+      }
+    ],
+    "tokens": 5162,
+    "cost": 0.000599,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "8774b67c-3beb-4eda-917e-d70b214192b4",
+    "focus": "The issue proposal describes new diagnostics to implement, and the instruction asks for a PR addressing the issue. Repository setup and other contextual details do not change those intents.",
+    "labels": [
+      {
+        "reasoning": "The issue requests a new Copilot pre-flight diagnostic capability before agent execution, so the primary intent is to implement new functionality.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.1 New Implementation"
+      },
+      {
+        "reasoning": "The instruction to create a PR also asks the agent to take a toolchain action after addressing the issue.",
+        "main_category": "5. Delegation",
+        "sub_category": "5.2 Toolchain Operation"
+      }
+    ],
+    "tokens": 4633,
+    "cost": 0.0005905,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "8e988585-0758-49a9-bcc7-c7f41127267a",
+    "focus": "The relevant intent is in the new PR comment that mentions @copilot and asks to resolve conflicts with main branch (4.x). Ignore comments that do not explicitly mention Copilot, along with the resolved older review comments.",
+    "labels": [
+      {
+        "reasoning": "The comment explicitly addressing Copilot asks it to resolve conflicts with the 4.x main branch, which is a direct repository/version-control operation. The other comments do not add separate actionable requests under the provided instructions.",
+        "main_category": "5. Delegation",
+        "sub_category": "5.2 Toolchain Operation"
+      }
+    ],
+    "tokens": 5425,
+    "cost": 0.0007205,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "905c47ec-a03f-42b0-9663-80cc05fce552",
+    "focus": "Classify the problem statement and the instruction to lint, build, and test. Ignore the repository context and path instructions, which do not add a separate behavioral intent.",
+    "labels": [
+      {
+        "reasoning": "The user requests a code change that creates a new `TypeCheckModule` trait and separates type-checking from `ParsingModule` across modules, so this is a new implementation.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.1 New Implementation"
+      },
+      {
+        "reasoning": "The user also explicitly instructs the agent to lint, build, and test the changes, which requires operating the project toolchain.",
+        "main_category": "5. Delegation",
+        "sub_category": "5.2 Toolchain Operation"
+      }
+    ],
+    "tokens": 3978,
+    "cost": 0.0005398,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "91da7674-7722-4724-90ca-7821f737aed6",
+    "focus": "The current intent is expressed by the new comment addressed to @copilot. Earlier comments and their replies provide context but are not additional requests to act on.",
+    "labels": [
+      {
+        "reasoning": "The new PR comment requests changes to the existing command: rename `replay` to `view`, add a friendly safeoutputs section, and end with the workflow run URL. These are refinements to the command already under development, so this is iterative modification rather than a request to create a separate implementation.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.2 Iterative Modification"
+      }
+    ],
+    "tokens": 8310,
+    "cost": 0.0010738000000000002,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "9f838a13-4e18-4a0f-8f22-2cb55e8d0373",
+    "focus": "The actionable current comment is \u201cfix this CI failure\u201d together with the pasted CI error output. The earlier review comment and completed changes in the problem statement are context, not additional current intents.",
+    "labels": [
+      {
+        "reasoning": "The new comment asks to fix a CI failure and includes the CI's machine-generated error output describing a method override with a missing keyword argument. This is a log-based failure report, not a separate code-authoring request.",
+        "main_category": "2. Failure Reporting",
+        "sub_category": "2.1 Log Paste"
+      }
+    ],
+    "tokens": 6631,
+    "cost": 0.0007967,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "a478a1e0-35fc-46fd-80fe-056b2f7f760d",
+    "focus": "The problem statement reports the Python-version error and directs an update to the existing workflow file; the surrounding repository context and instruction to implement the change do not add a separate intent.",
+    "labels": [
+      {
+        "reasoning": "The user explicitly asks to update an existing workflow\u2019s Python version, so the primary intent is to modify existing code rather than introduce a new feature.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.2 Iterative Modification"
+      },
+      {
+        "reasoning": "The problem statement also reports a CI job failure and includes the machine-generated version error, making this a log-paste failure report.",
+        "main_category": "2. Failure Reporting",
+        "sub_category": "2.1 Log Paste"
+      }
+    ],
+    "tokens": 4289,
+    "cost": 0.0006405,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "acad8672-c45c-4147-a481-7e8de7bc8b0f",
+    "focus": "The problem statement requests changes to existing files to increase shared functionality and types, and the prompt asks for linting, building, and testing. Repository setup details are not relevant to the intent classification.",
+    "labels": [
+      {
+        "reasoning": "The user asks to refactor existing `pointwise.ts` and `listwise.ts` code to share more functionality and types, which is an iterative modification rather than a request to build a new feature.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.2 Iterative Modification"
+      },
+      {
+        "reasoning": "The user also explicitly instructs the agent to lint, build, and test during the work, requesting toolchain execution.",
+        "main_category": "5. Delegation",
+        "sub_category": "5.2 Toolchain Operation"
+      }
+    ],
+    "tokens": 4099,
+    "cost": 0.0005559000000000001,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "af7c0f7f-5704-4f5a-b576-3955f0b6497e",
+    "focus": "The current prompt asks to add a comment to the README for clients upgrading. Earlier PR details provide context for the change but do not add a separate intent to classify.",
+    "labels": [
+      {
+        "reasoning": "The user asks for an explanatory note in the README about implications for clients upgrading. This is a request to produce written documentation, not to change or validate code.",
+        "main_category": "5. Delegation",
+        "sub_category": "5.1 Documentation"
+      }
+    ],
+    "tokens": 7049,
+    "cost": 0.0007889,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "b1ac6280-2730-459b-9555-58857d6d4270",
+    "focus": "The problem statement and final prompt ask the agent to make specified changes to STYLE_GUIDE.md and STYLE_GUIDE_RATIONALE.md. Repository context and date are supporting information, not separate intents.",
+    "labels": [
+      {
+        "reasoning": "The user asks for new guidance and a checklist item in existing documentation, a corresponding rationale section, and a version/date update. This is a request to produce or modify written artifacts, so Documentation is the best fit; no separate code implementation or toolchain operation is requested.",
+        "main_category": "5. Delegation",
+        "sub_category": "5.1 Documentation"
+      }
+    ],
+    "tokens": 4528,
+    "cost": 0.0005916000000000001,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "bb26635e-d228-47fd-af94-83d7fb32b579",
+    "focus": "Classify the new PR comment asking to fix the TS2322 error and the compiler diagnostic it provides. The prior comments and upgrade description are context only.",
+    "labels": [
+      {
+        "reasoning": "The new comment asks Copilot to fix a TypeScript error and includes compiler-generated error output. This is a failure report with a pasted diagnostic, so 2.1 applies; no separate code change direction is specified beyond fixing the failure.",
+        "main_category": "2. Failure Reporting",
+        "sub_category": "2.1 Log Paste"
+      }
+    ],
+    "tokens": 6287,
+    "cost": 0.0007631000000000001,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "be704ba2-fb77-497e-abfe-bc72f875c49a",
+    "focus": "The actionable refinement-check comment asks for both review and changes to the existing implementation. The other new comments report issue tracking and deployment approval status without requesting an action; older review comments are context rather than the current request.",
+    "labels": [
+      {
+        "reasoning": "The actionable new comment asks the agent to refine its existing implementation and address review feedback, which directs changes to code already under development. This is iterative modification rather than a new implementation.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.2 Iterative Modification"
+      },
+      {
+        "reasoning": "The request also explicitly asks the agent to review the implementation against the issue requirements and inspect for missing features, performance concerns, concurrency issues, and resource leaks. That is a distinct validation intent alongside the requested refinements.",
+        "main_category": "4. Validation",
+        "sub_category": "4.1 Code Review"
+      }
+    ],
+    "tokens": 6438,
+    "cost": 0.0009426,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "c2d8eec9-96bd-4af6-a1c7-65ddf2986403",
+    "focus": "I considered the issue description's circular-reference failure and the prompt's request to implement changes that resolve it. Repository setup details and the unrelated CI/build-failure instruction do not affect the classification.",
+    "labels": [
+      {
+        "reasoning": "The issue describes an observable failure: passing the request body through a variable triggers a circular-reference error, while passing it as a literal does not. This is a natural-language symptom report, not a pasted log.",
+        "main_category": "2. Failure Reporting",
+        "sub_category": "2.2 Symptom Description"
+      },
+      {
+        "reasoning": "The prompt also explicitly asks for repository changes to resolve the issue. Since this is a correction to existing behavior rather than a request for a new feature, it is iterative modification.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.2 Iterative Modification"
+      }
+    ],
+    "tokens": 4831,
+    "cost": 0.0007262999999999999,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "c6bace3f-d263-4d70-8521-9fd30db499ca",
+    "focus": "The issue asks about which environments the existing flows cover and how the approval recipient is determined. The surrounding repository instructions do not add a separate user intent.",
+    "labels": [
+      {
+        "reasoning": "The user asks how the CoE Starter Kit\u2019s existing inactivity notification flows behave and how to configure their approval recipient. This is a request to understand project-specific functionality, not a request to change code.",
+        "main_category": "3. Inquiry",
+        "sub_category": "3.2 Project Comprehension"
+      }
+    ],
+    "tokens": 5587,
+    "cost": 0.0007755,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "f591c58d-5194-49f7-aff6-235cfb61d4ec",
+    "focus": "The current prompt explicitly asks to implement the bookshelf plan. The plan\u2019s earlier wording about first discussing a design is context to that plan, not a separate request for explanation or further planning.",
+    "labels": [
+      {
+        "reasoning": "\u201cImplement the plan\u201d asks for code changes to create a new bookshelf/gallery capability, including its data layer, view, filtering, lazy-loaded progress, and entry points. This is a new feature rather than a refinement of existing functionality.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.1 New Implementation"
+      }
+    ],
+    "tokens": 8616,
+    "cost": 0.0009532000000000001,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  },
+  {
+    "id": "fa4d61d6-e774-476e-ab42-f3d8c139c88b",
+    "focus": "The current interaction\u2019s actionable intent is in the new @copilot comment requesting localized diagnostic-context changes. Earlier comments and replies provide context but are not separate requests to act on.",
+    "labels": [
+      {
+        "reasoning": "The actionable comment asks to refactor the existing diagnostic-context setup into a reusable function and apply it in the expando transform functions and CommonJS export path. This is a refinement of code already under development, so it is iterative modification rather than a new implementation or failure report.",
+        "main_category": "1. Code Authoring",
+        "sub_category": "1.2 Iterative Modification"
+      }
+    ],
+    "tokens": 8731,
+    "cost": 0.0010255,
+    "model": "gpt-6-luna",
+    "service_tier": "flex"
+  }
+]

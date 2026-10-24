@@ -1,0 +1,27 @@
+RQ3 population tasks: 324,695
+round sessions (developer rounds): 247,838
+tasks with >=1 round: 95,224 (29.3%)
+median rounds among tasks-with-rounds: 2 ; median over all tasks: 0
+round-credit share overall: 73.1% ; median per-task share: 66.7%
+Spearman cost_floor vs change: 0.088 ; vs rounds: 0.452 ; first-session cost vs change: 0.001 (n_change=307,297)
+
+intent                              round_n  round%   ask%   rep%
+1. Code Authoring                   121,276    48.9   49.4   52.8
+  1.1 New Implementation             17,802     7.2  18.18   52.4
+  1.2 Iterative Modification        102,500    41.4  30.65   52.9
+  1.3 Unspecified Authoring             974     0.4   0.55   50.6
+2. Failure Reporting                 49,835    20.1   21.1   60.2
+  2.1 Log Paste                      13,872     5.6   6.58   62.7
+  2.2 Symptom Description            27,170    11.0   12.4   61.4
+  2.3 Unspecified Failure             8,793     3.5   2.07   52.7
+3. Inquiry                           21,632     8.7    4.6   44.2
+  3.1 Planning \& Consultation        8,534     3.4   2.15   47.8
+  3.2 Project Comprehension          11,674     4.7   2.14   42.5
+  3.3 General Knowledge Query         1,424     0.6   0.32   37.2
+4. Validation                        17,000     6.9   13.3   22.5
+  4.1 Code Review                    15,420     6.2  13.18   19.8
+  4.2 Runtime Inspection              1,580     0.6   0.17   49.0
+5. Delegation                        34,384    13.9   10.5   32.7
+  5.1 Documentation                  10,489     4.2   5.06   37.0
+  5.2 Toolchain Operation            23,895     9.6   5.41   30.8
+6. Others                             3,711     1.5    1.1   39.5

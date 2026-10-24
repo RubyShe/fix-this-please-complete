@@ -1,0 +1,16 @@
+main_category,sub_label,label,round_n,round_pct,ask_pct,repeated_pct
+1. Code Authoring,1.1 New Implementation,code_creation,17802,7.2,18.18,52.4
+1. Code Authoring,1.2 Iterative Modification,code_change,102500,41.4,30.65,52.9
+1. Code Authoring,1.3 Unspecified Authoring,code_unspecified,974,0.4,0.55,50.6
+2. Failure Reporting,2.1 Log Paste,failure_log,13872,5.6,6.58,62.7
+2. Failure Reporting,2.2 Symptom Description,failure_symptom,27170,11.0,12.4,61.4
+2. Failure Reporting,2.3 Unspecified Failure,failure_unspecified,8793,3.5,2.07,52.7
+3. Inquiry,3.1 Planning \& Consultation,question_plan,8534,3.4,2.15,47.8
+3. Inquiry,3.2 Project Comprehension,question_project,11674,4.7,2.14,42.5
+3. Inquiry,3.3 General Knowledge Query,question_general,1424,0.6,0.32,37.2
+4. Validation,4.1 Code Review,review_code,15420,6.2,13.18,19.8
+4. Validation,4.2 Runtime Inspection,review_runtime,1580,0.6,0.17,49.0
+5. Delegation,5.1 Documentation,documentation,10489,4.2,5.06,37.0
+5. Delegation,5.2 Toolchain Operation,dev_operation,23895,9.6,5.41,30.8
+6. Others,6. Others,other,3711,1.5,1.14,39.5
+TOTAL,,,247838,100.0,100.0,48.5

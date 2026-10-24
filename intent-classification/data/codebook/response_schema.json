@@ -1,0 +1,28 @@
+{
+  "type": "json_schema",
+  "json_schema": {
+    "name": "classification",
+    "strict": true,
+    "schema": {
+      "type": "object",
+      "properties": {
+        "focus": {"type": "string"},
+        "labels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "reasoning": {"type": "string"},
+              "main_category": {"type": "string"},
+              "sub_category": {"type": "string"}
+            },
+            "required": ["reasoning", "main_category", "sub_category"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": ["focus", "labels"],
+      "additionalProperties": false
+    }
+  }
+}

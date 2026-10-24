@@ -1,0 +1,34 @@
+id	BIGINT
+graphql_id	VARCHAR
+number	BIGINT
+found_using	VARCHAR
+timeline_found	BOOLEAN
+repository	STRUCT(full_name VARCHAR)
+created_by_tasks	STRUCT(id VARCHAR)[]
+created_by_sessions	STRUCT(id VARCHAR)[]
+user	STRUCT(id BIGINT, login VARCHAR, graphql_id VARCHAR, "type" VARCHAR)
+assignees	STRUCT(id BIGINT, login VARCHAR, graphql_id VARCHAR, "type" VARCHAR)[]
+requested_reviewers	STRUCT(id BIGINT, login VARCHAR, graphql_id VARCHAR, "type" VARCHAR)[]
+merged_by	STRUCT(id BIGINT, login VARCHAR, graphql_id VARCHAR, "type" VARCHAR)
+title	VARCHAR
+body	VARCHAR
+state	VARCHAR
+locked	BOOLEAN
+draft	BOOLEAN
+labels	VARCHAR[]
+active_lock_reason	VARCHAR
+created_at	TIMESTAMP
+updated_at	TIMESTAMP
+closed_at	TIMESTAMP
+merged_at	TIMESTAMP
+head	STRUCT("ref" VARCHAR, sha VARCHAR)
+base	STRUCT("ref" VARCHAR, sha VARCHAR)
+author_association	VARCHAR
+auto_merge	STRUCT(enabled_by STRUCT(id BIGINT, login VARCHAR, graphql_id VARCHAR, "type" VARCHAR), merge_method VARCHAR, commit_title VARCHAR, commit_message VARCHAR)
+merged	BOOLEAN
+mergeable	BOOLEAN
+mergeable_state	VARCHAR
+maintainer_can_modify	BOOLEAN
+additions_count	BIGINT
+deletions_count	BIGINT
+changed_files_count	BIGINT

@@ -1,0 +1,72 @@
+[
+  {
+    "main_category": "1. Code Authoring",
+    "sub_category": "1.1 New Implementation",
+    "label": "code_creation"
+  },
+  {
+    "main_category": "1. Code Authoring",
+    "sub_category": "1.2 Iterative Modification",
+    "label": "code_change"
+  },
+  {
+    "main_category": "1. Code Authoring",
+    "sub_category": "1.3 Unspecified Authoring",
+    "label": "code_unspecified"
+  },
+  {
+    "main_category": "2. Failure Reporting",
+    "sub_category": "2.1 Log Paste",
+    "label": "failure_log"
+  },
+  {
+    "main_category": "2. Failure Reporting",
+    "sub_category": "2.2 Symptom Description",
+    "label": "failure_symptom"
+  },
+  {
+    "main_category": "2. Failure Reporting",
+    "sub_category": "2.3 Unspecified Failure",
+    "label": "failure_unspecified"
+  },
+  {
+    "main_category": "3. Inquiry",
+    "sub_category": "3.1 Planning & Consultation",
+    "label": "question_plan"
+  },
+  {
+    "main_category": "3. Inquiry",
+    "sub_category": "3.2 Project Comprehension",
+    "label": "question_project"
+  },
+  {
+    "main_category": "3. Inquiry",
+    "sub_category": "3.3 General Knowledge Query",
+    "label": "question_general"
+  },
+  {
+    "main_category": "4. Validation",
+    "sub_category": "4.1 Code Review",
+    "label": "review_code"
+  },
+  {
+    "main_category": "4. Validation",
+    "sub_category": "4.2 Runtime Inspection",
+    "label": "review_runtime"
+  },
+  {
+    "main_category": "5. Delegation",
+    "sub_category": "5.1 Documentation",
+    "label": "documentation"
+  },
+  {
+    "main_category": "5. Delegation",
+    "sub_category": "5.2 Toolchain Operation",
+    "label": "dev_operation"
+  },
+  {
+    "main_category": "6. Others",
+    "sub_category": "6.1 Others",
+    "label": "other"
+  }
+]

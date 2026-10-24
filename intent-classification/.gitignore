@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+*.egg-info/
+.env
+
+data/*
+!data/codebook
+!data/validation
+!data/llm_alignment

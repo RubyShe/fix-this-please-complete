@@ -1,0 +1,86 @@
+[
+  {
+    "main_category": "1. Code Authoring",
+    "sub_category": "1.1 New Implementation"
+  },
+  {
+    "main_category": "1. Code Authoring",
+    "sub_category": "1.2 Iterative Modification"
+  },
+  {
+    "main_category": "1. Code Authoring",
+    "sub_category": "1.3 Alignment Correction"
+  },
+  {
+    "main_category": "2. Failure Reporting",
+    "sub_category": "2.1 Log Paste"
+  },
+  {
+    "main_category": "2. Failure Reporting",
+    "sub_category": "2.2 Symptom Description"
+  },
+  {
+    "main_category": "2. Failure Reporting",
+    "sub_category": "2.3 Error Persistence"
+  },
+  {
+    "main_category": "3. Inquiry",
+    "sub_category": "3.1 Planning & Consultation"
+  },
+  {
+    "main_category": "3. Inquiry",
+    "sub_category": "3.2 Project Comprehension"
+  },
+  {
+    "main_category": "3. Inquiry",
+    "sub_category": "3.3 General Knowledge Query"
+  },
+  {
+    "main_category": "4. Context Specification",
+    "sub_category": "4.1 Information Injection"
+  },
+  {
+    "main_category": "4. Context Specification",
+    "sub_category": "4.2 Behavior Specification"
+  },
+  {
+    "main_category": "5. Validation",
+    "sub_category": "5.1 Code Review"
+  },
+  {
+    "main_category": "5. Validation",
+    "sub_category": "5.2 Runtime Inspection"
+  },
+  {
+    "main_category": "6. Delegation",
+    "sub_category": "6.1 Documentation"
+  },
+  {
+    "main_category": "6. Delegation",
+    "sub_category": "6.2 Toolchain Operation"
+  },
+  {
+    "main_category": "7. Workflow Control",
+    "sub_category": "7.1 Confirmation"
+  },
+  {
+    "main_category": "7. Workflow Control",
+    "sub_category": "7.2 Continuation"
+  },
+  {
+    "main_category": "7. Workflow Control",
+    "sub_category": "7.3 Deferred Debugging"
+  },
+  {
+    "main_category": "7. Workflow Control",
+    "sub_category": "7.4 Deferred Implementation"
+  },
+  {
+    "main_category": "7. Workflow Control",
+    "sub_category": "7.5 Sentiment Expression"
+  },
+  {
+    "main_category": "8. Others",
+    "sub_category": "8.1 Others"
+  }
+]

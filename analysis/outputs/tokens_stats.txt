@@ -1,0 +1,38 @@
+=== RQ2 tokens per ask type (median tok_out [IQR]; median tok_in) ===
+         ask_type      n  med_out  out_lo   out_hi    med_in
+   Code Authoring 118802  17438.0  7666.0 35372.00 2775821.0
+Failure Reporting  44085  15856.0  8265.0 29797.00 2680265.0
+          Inquiry   9859  14014.0  4884.5 35056.00 1637927.0
+       Validation  37138   3540.0  2033.0  6497.75  369609.5
+       Delegation  20685   9163.0  4613.0 18335.00 1232952.0
+           Others   1949   3622.0  1178.0 11221.00  368330.0
+              All 232518  12676.0  5127.0 28439.00 1901028.0
+
+=== RQ2 Kruskal-Wallis on tok_out across ask types ===
+H=43510.9, p=0
+  pair | Holm p | Cliff's delta (|d|>=0.147 small, 0.33 medium, 0.474 large)
+    FR vs VA: Holm p=0, d=+0.68
+    CA vs VA: Holm p=0, d=+0.66
+    FR vs OT: Holm p=0, d=+0.57
+    CA vs OT: Holm p=0, d=+0.57
+    IN vs VA: Holm p=0, d=+0.50
+    VA vs DE: Holm p=0, d=-0.47
+    IN vs OT: Holm p=2.32e-215, d=+0.45
+    DE vs OT: Holm p=1.79e-161, d=+0.37
+    CA vs DE: Holm p=0, d=+0.30
+    FR vs DE: Holm p=0, d=+0.29
+    IN vs DE: Holm p=8.46e-119, d=+0.16
+    CA vs IN: Holm p=1.18e-57, d=+0.10
+    FR vs IN: Holm p=1.43e-28, d=+0.07
+    CA vs FR: Holm p=1.05e-27, d=+0.04
+    VA vs OT: Holm p=0.0744, d=+0.02
+
+=== RQ3 round share of OUTPUT tokens ===
+tasks with >=1 round: 74,160
+overall round share of tok_out: 56.8%
+median per-task round share: 44.1%
+
+=== RQ3 Spearman correlations (OUTPUT tokens) ===
+total tok_out vs #rounds:        rho=0.54
+total tok_out vs change size:    rho=0.49
+first-session tok_out vs change: rho=0.44
